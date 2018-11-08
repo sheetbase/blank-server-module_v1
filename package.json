@@ -5,7 +5,8 @@
    "author": "Sheetbase",
    "homepage": "https://sheetbase.net",
    "license": "MIT",
-   "main": "./dist/bundles/blank.umd.js",
+   "main": "./dist/bundles/sheetbase-blank-server.umd.js",
+   "typings": "./dist/sheetbase-blank-server.d.ts",
    "scripts": {
       "module": "sheetbase-app-scripts build",
       "readme": "sheetbase-app-scripts readme",
