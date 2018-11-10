@@ -8,6 +8,9 @@
    "main": "dist/bundles/blank.umd.js",
    "module": "dist/fesm3/blank.js",
    "typings": "dist/blank.d.ts",
+   "files": [
+	"dist"
+   ],
    "scripts": {
       "module": "sheetbase-app-scripts build",
       "readme": "sheetbase-app-scripts readme",
