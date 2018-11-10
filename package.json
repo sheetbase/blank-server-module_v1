@@ -5,8 +5,9 @@
    "author": "Sheetbase",
    "homepage": "https://sheetbase.net",
    "license": "MIT",
-   "main": "./dist/bundles/sheetbase-blank-server.umd.js",
-   "typings": "./dist/sheetbase-blank-server.d.ts",
+   "main": "dist/bundles/blank.umd.js",
+   "module": "dist/fesm3/blank.js",
+   "typings": "dist/blank.d.ts",
    "scripts": {
       "module": "sheetbase-app-scripts build",
       "readme": "sheetbase-app-scripts readme",
@@ -31,7 +32,7 @@
    },
    "dependencies": {},
    "devDependencies": {
-      "@sheetbase/app-scripts": "0.0.21",
+      "@sheetbase/app-scripts": "0.0.25",
       "@types/chai": "^4.1.7",
       "@types/google-apps-script": "0.0.28",
       "@types/mocha": "^5.2.5",

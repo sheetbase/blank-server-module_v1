@@ -1,9 +1,16 @@
 export default {
-    input: './dist/public_api.js',
-    output: {
-        file: './dist/bundles/sheetbase-blank-server.umd.js',
-        format: 'umd',
-        name: 'Blank',
-        sourcemap: true
-    },
+    input: './dist/esm3/public_api.js',
+    output: [
+        {
+            file: './dist/fesm3/blank.js',
+            format: 'esm',
+            sourcemap: true
+        },
+        {
+            file: './dist/bundles/blank.umd.js',
+            format: 'umd',
+            sourcemap: true,
+            name: 'Blank'
+        }
+    ]
 };
