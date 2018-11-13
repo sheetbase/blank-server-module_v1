@@ -1,10 +1,10 @@
 node_modules/
 
 # build
+out-tsc/
 deploy/
 dist/
 
 # test
 .nyc_output/
 coverage/
-tests/out-tsc/

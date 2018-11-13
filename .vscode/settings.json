@@ -8,6 +8,7 @@
         
         "**/.nyc_output": true,
         "**/coverage": true,
-        "**/tests/out-tsc": true
+
+        "**/out-tsc": true
     }
 }
