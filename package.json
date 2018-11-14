@@ -20,8 +20,7 @@
         "lint": "tslint --project tslint.json && echo 'No lint errors.'",
         "transpile-test": "tsc --project tests/tsconfig.test.json",
         "run-test": "nyc --cache false mocha --timeout 100000 -- build/tests/*.js",
-        "test": "npm run transpile-test && npm run run-test",
-        "coverage": "nyc --cache false report --reporter=text-lcov | coveralls"
+        "test": "npm run transpile-test && npm run run-test"
     },
     "keywords": [
         "google-apps-script",
@@ -45,7 +44,6 @@
         "@types/mocha": "^5.2.5",
         "@types/node": "^10.12.7",
         "chai": "^4.2.0",
-        "coveralls": "^3.0.2",
         "mocha": "^5.2.0",
         "nyc": "^13.1.0",
         "tslint": "^5.11.0",
