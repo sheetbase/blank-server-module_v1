@@ -1,5 +1,5 @@
 {
-    "name": "@sheetbase/blank-server",
+    "name": "@sheetbase/blank-server-module",
     "version": "0.0.1",
     "description": "Blank template for building Sheetbase server module.",
     "author": "Sheetbase",
@@ -28,10 +28,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/sheetbase/blank-server.git"
+        "url": "https://github.com/sheetbase/blank-server-module.git"
     },
     "bugs": {
-        "url": "https://github.com/sheetbase/blank-server/issues"
+        "url": "https://github.com/sheetbase/blank-server-module/issues"
     },
     "dependencies": {},
     "peerDependencies": {

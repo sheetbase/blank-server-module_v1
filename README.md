@@ -1,4 +1,4 @@
-# Sheetbase Module: @sheetbase/blank-server
+# Sheetbase Blank Server Module
 
 Blank template for building Sheetbase server module.
 
@@ -11,4 +11,4 @@ Blank template for building Sheetbase server module.
 
 ## License
 
-**@sheetbase/blank-server** is released under the [MIT](https://github.com/sheetbase/blank-server/blob/master/LICENSE) license.
+**@sheetbase/blank-server-module** is released under the [MIT](https://github.com/sheetbase/blank-server-module/blob/master/LICENSE) license.
