@@ -5,8 +5,9 @@ Blank template for building Sheetbase server module.
 ## Install
 
 - Clone this repo, install dependencies.
-- Rename the module.
-- Start develop, and distribute.
+- Edit info (name, path, ...): **package.json**, **rollup.config.js**.
+- Edit script id: **.clasp.json**.
+- Start develop and distribute.
 
 ## License
 

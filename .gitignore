@@ -1,9 +1,12 @@
 node_modules/
 
+# clasp
+.clasprc.json
+
 # build
-out-tsc/
-deploy/
+build/
 dist/
+deploy/
 
 # test
 .nyc_output/
