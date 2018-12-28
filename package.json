@@ -16,11 +16,8 @@
         "readme": "sheetbase-app-scripts readme",
         "docs": "sheetbase-app-scripts docs",
         "build": "npm run module && npm run readme && npm run docs",
-        "deploy": "sheetbase-app-scripts deploy",
         "lint": "tslint --project tslint.json && echo 'All files pass linting.'",
-        "transpile-test": "tsc --project tests/tsconfig.test.json",
-        "run-test": "nyc --cache false mocha --timeout 100000 -- build/tests/*.js",
-        "test": "npm run transpile-test && npm run run-test"
+        "test": "tsc --project tests/tsconfig.test.json && nyc --cache false mocha --timeout 100000 -- build/tests/*.js"
     },
     "keywords": [
         "google-apps-script",
